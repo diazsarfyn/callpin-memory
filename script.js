@@ -23,37 +23,37 @@ const memories = [
     emoji:   '<img src="flower2.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto2.jpeg',            // contoh: 'foto-cute.jpg'
-    title:   'Cute Moments 🥰',
+    title:   'Cute Moments',
     message: 'I see the beauty in the depths of your eyes... <br><em>13-12-25</em>.',
     caption: '— warmth in every frame —'
   },
   {
     code:    'A3',
-    label:   'Funny Faces',
+    label:   'Random Happiness',
     emoji:   '<img src="flower3.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto3.jpeg',            // contoh: 'foto-funny.jpg'
-    title:   'Funny Faces 🤪',
+    title:   'Random Happiness',
     message: 'Hidup aku jadi lebih baik sejak ketemu sama kamu. <br><em>31-01-26</em>.',
     caption: '— laugh & repeat —'
   },
   {
     code:    'A4',
-    label:   'Special Day',
+    label:   'Made My Day',
     emoji:   '<img src="flower4.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto4.jpeg',            // contoh: 'foto-special.jpg'
-    title:   'Special Day 🎉',
+    title:   'Made My Day',
     message: 'Photobox dadakan tanpa rencana, tapi hasilnya menurut aku jadi salah satu photobox yang lucu. <br><em>04-04-26</em>.',
     caption: '— a day to remember —'
   },
   {
     code:    'A5',
-    label:   'Cute Moments',
+    label:   'Favorite Smile',
     emoji:   '<img src="sakura.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto5.jpeg',            // contoh: 'foto-random.jpg'
-    title:   'Random Snap 📸',
+    title:   'Favorite Smile',
     message: 'Photobox favorit aku, dan ini salah satu foto terlucu kamu. <br><em>30-04-26</em>.',
     caption: '— unplanned, unforgettable —'
   },
@@ -63,7 +63,7 @@ const memories = [
     emoji:   '<img src="bunga6.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto6.jpeg',            // contoh: 'foto-smile.jpg'
-    title:   'Sweet Smile 😊',
+    title:   'Sweet Smile',
     message: 'Semuanya terasa begitu hangat dan lembut saat kamu ada di dekatku. <br><em>06-07-26</em>.',
     caption: '— forever iconic —'
   },
@@ -73,7 +73,7 @@ const memories = [
     emoji:   '<img src="bunga7.png" class="item-icon-img" alt="A1">',
     /* Ganti '' dengan path/URL foto untuk memori ini */
     photo:   'poto7.jpeg',            // contoh: 'foto-forever.jpg'
-    title:   'Forever Us 💑',
+    title:   'Forever Us',
     message: 'Dua orang, jutaan kenangan. Semoga photobox kita terus bertambah ya,I love you! <br><em>29-08-26</em>. ',
     caption: '— always & forever —'
   }
@@ -230,7 +230,7 @@ function toggleMusic() {
         bgmAudio.play();
         btn.textContent = '⏸ Pause';
         icon.classList.add('spinning');
-        showToast('🎵 Lagu kenangan kita mulai..');
+        showToast('🎵 The song begins...');
     } else {
         bgmAudio.pause();
         btn.textContent = '▶ Play';
